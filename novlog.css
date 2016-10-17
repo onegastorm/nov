@@ -260,7 +260,7 @@ span.author.vcard { display: none;}
 /* サイドバーの領域 */
 #box2 {  width: 978px;  font-size: 13px;  color: #777777;  padding: 40px 0px 10px 0;  background: #333333;}
 /* 段組するよー！ */
-.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 410px;}
+.hatena-module {  display: inline-block;  vertical-align: bottom;  margin-left: 50px;  width: 350px;}
 /* 回り込みを防ぐとか何とかよくわかりま1000円 */
 .hatena-module:after {  display: block;  visibility: hidden;  height: 0;  clear: both;  content: "@@@@";}
 /* 各要素のタイトル */
@@ -432,6 +432,8 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* jump */
 #jump-top {  width: 512px;}
 #jump-btm {  width: 512px;}
+/* hatena-module */
+.hatena-module {  width: 410px;}
 /* page-about  */
 .page-about .entry-content {  padding: 80px 30px 20px 30px;}
 /* page-archive */
