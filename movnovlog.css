@@ -212,7 +212,7 @@ span.author.vcard { display: none;}
 /* 投稿者名の領域規定 */
 .comment-user-name {  margin: 0 0 0 40px;}
 /* 投稿者名の装飾指定 */
-.comment-user-name a {  color: #777777;  text-decoration: none;}
+.comment-user-name a {  color: #999999;  text-decoration: none;}
 /* 本文の折り返しを規定 */
 .comment-content {  margin: 0;  word-wrap: break-word;}
 /* コメント本文上のマージンを0に！ */
