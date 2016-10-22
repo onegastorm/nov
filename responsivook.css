@@ -1,0 +1,121 @@
+﻿body {
+/* border-boxを使いまぁす！ */
+  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -o-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing: border-box;
+}
+
+/* 画面効果らしい */
+.nehan-body {  opacity: 0;  margin: 0 auto;
+  -webkit-transition: opacity 0.2s ease-in;  -moz-transition: opacity 0.2s ease-in;  -ms-transition: opacity 0.2s ease-in;  -o-transition: opacity 0.2s ease-in;  transition: opacity 0.2s ease-in;}
+.responsivook-fadein {  opacity: 1;}
+
+/* 何やろ */
+.responsivook-divider {
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 1rem;
+  margin: 1rem 0;
+  height: 0;
+  line-height: 1;
+  letter-spacing: .05em;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -moz-user-select: none; }
+
+/* 本文表示部分について設定するものらしぃ */
+.responsivook-nehan-wrap {  padding: 40px 0px 120px 0px;  margin: 160px 0 120px 0;  color: #444444;  background: #CCFFCC;}
+/* よくわからないが、必要なものなんだろう・・・ */
+.rsponsivook-nehan-wrap::after {  content: "";}
+
+/* pager -------------------------------------------------- */
+
+/* ブタンの間のスペースですね。 */
+.re-btn-nx:first-child {  margin-right: 0px;}
+.re-btn-bk:first-child {  margin-right: 0px;}
+/*.responsivook-btn:first-child {  margin-right: 0px;}*/
+/* ページャーの設定 */
+.responsivook-pager {
+  position: absolute;  top: 880px;  left: 0px;  width: 30px;  text-align: left;  font-size: 18px;  margin-left: -30px;}
+/*.responsivook-pager {  text-align: center; }*/
+/* 何やねん */
+.btn-nx,.btn-nx a {  text-decoration: none;}
+.btn-bk,.btn-bk a {  text-decoration: none;}
+/*.btn,.btn a {  text-decoration: none;}*/
+
+/* 戻るブタン */
+.btn-nx {  width: 30px;  height: 140px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;}
+/* アイコンだよぉ！ - */
+.re-btn-nx:before {  font-family: "blogicon";  content: "\f006";  color: #777777;  font-size: 18px;}
+
+/* 進むブタン */
+.btn-bk {  width: 30px;  height: 140px;  display: inline-block;  zoom: 1;  text-align: center;  position: relative;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;}
+/* アイコンだよぉ！ - */
+.re-btn-bk:before {  font-family: "blogicon";  content: "\f005";  color: #777777;  font-size: 18px;}
+
+/*
+  .btn {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 18px;
+  white-space: nowrap;
+  width: 40%;
+  padding: .8em 1.5em;
+  font-family: Open Sans, Helvetica,Arial,sans-serif;
+  line-height: 18px;
+  display: inline-block;
+  zoom: 1;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear; }
+*/
+
+/* ボタン軍。いらないっぽい -------------------------------------------------- */
+
+/* 上から[緑][深い青][ルージュ][ほとんど黒][オレンジ][明るいオレンジ][赤][灰] -------------------------------------------------- *//*
+.btn.sea {  background-color: #08bc9a;  border-color: #08bc9a;  -webkit-box-shadow: 0 3px 0 #088d74;  box-shadow: 0 3px 0 #088d74; }
+.btn.sea:hover {  background-color: #01a183; }
+.btn.sea:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.dark-blue {  background-color: #237fbc;  border-color: #237fbc;  -webkit-box-shadow: 0 3px 0 #1a5c87;  box-shadow: 0 3px 0 #1a5c87; }
+.btn.dark-blue:hover {  background-color: #166ea8; }
+.btn.dark-blue:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.rouge {  background-color: #c0392b;  border-color: #c0392b;  -webkit-box-shadow: 0 3px 0 #8f2a1f;  box-shadow: 0 3px 0 #8f2a1f; }
+.btn.rouge:hover {  background-color: #ac3420; }
+.btn.rouge:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.dark {  background-color: #2c3d51;  border-color: #2c3d51;  -webkit-box-shadow: 0 3px 0 #080c0f;  box-shadow: 0 3px 0 #080c0f; }
+.btn.dark:hover {  background-color: #202d3d; }
+.btn.dark:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.orange {  background-color: #f59e00;  border-color: #f59e00;  -webkit-box-shadow: 0 3px 0 #b37401;  box-shadow: 0 3px 0 #b37401; }
+.btn.orange:hover {  background-color: #dd9003; }
+.btn.orange:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.sunflower {  background-color: #f2c500;  border-color: #f2c500;  -webkit-box-shadow: 0 3px 0 #b19001;  box-shadow: 0 3px 0 #b19001; }
+.btn.sunflower:hover {  background-color: #e3ba02; }
+.btn.sunflower:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.red {  background-color: #ea4f37;  border-color: #ea4f37;  -webkit-box-shadow: 0 3px 0 #b13825;  box-shadow: 0 3px 0 #b13825; }
+.btn.red:hover {  background-color: #a53422; }
+.btn.red:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }
+.btn.concrete {  background-color: #7e8c8d;  border-color: #7e8c8d;  -webkit-box-shadow: 0 3px 0 #4e5b5c;  box-shadow: 0 3px 0 #4e5b5c; }
+.btn.concrete:hover {  background-color: #6a7879; }
+.btn.concrete:active {  top: 3px;  outline: none;  -webkit-box-shadow: none;  box-shadow: none; }*/
+
+/* ようわかりまへんわ -------------------------------------------------- */
+/*
+.btn-nx i {  padding-right: 0.8em;  line-height: 22px;}
+.icon-only-nx {  padding: 1em;}
+.icon-only-nx i {  padding-right: 0;  font-size: 22px;  line-height: 22px;}
+
+.btn-bk i {  padding-right: 0.8em;  line-height: 22px;}
+.icon-only-bk {  padding: 1em;}
+.icon-only-bk i {  padding-right: 0;  font-size: 22px;  line-height: 22px;}
+*/
+/*
+.btn i {  padding-right: 0.8em;  line-height: 22px; }
+.icon-only {  padding: 1em; }
+.icon-only i {  padding-right: 0;  font-size: 22px;  line-height: 22px; }
+*/
