@@ -351,11 +351,11 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 
 /* 記事数値とか */
 .page-about {  font-size: 32px;}
-.page-about dd {  margin: 0 0 160px 0;}
+.page-about dd {  margin: 0 0 160px 0;  padding-top: 100px;}
 /* ブログ投稿件数とか */
 .page-about dt {  font-size: 24px;  color: #BBBBBB;}
 /* 上下にマージンが効かないとか。 */
-.page-about .entry-content {  text-align: left;  padding: 60px 0 120px 0;  margin: 0 40px 0 40px;}
+.page-about .entry-content {  text-align: left;  padding: 60px 0 20px 0;  margin: 0 40px 0 40px;}
 /* サムネですかね */
 /*.page-about .entry-content img {  margin: 0;  display: inline-block;  vertical-align: middle;}*/
 /*.page-about .entry-content img {  display: none;}*/
