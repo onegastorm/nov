@@ -1,4 +1,4 @@
-﻿body {
+body {
 /* border-boxを使いまぁす！ */
   -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -o-box-sizing: border-box;  -ms-box-sizing: border-box;  box-sizing: border-box;
 }
@@ -23,7 +23,7 @@
   -moz-user-select: none; }
 
 /* 本文表示部分について設定するものらしぃ */
-.responsivook-nehan-wrap {  padding: 40px 0px 120px 0px;  margin: 160px 0 120px 0;  color: #444444;  background: #FFFAF0;}
+.responsivook-nehan-wrap {  padding: 40px 0px 120px 0px;  margin: 160px 0 120px 0;  color: #444444;  background: #FFF5F0;}
 /* よくわからないが、必要なものなんだろう・・・ */
 .rsponsivook-nehan-wrap::after {  content: "";}
 
