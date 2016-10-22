@@ -109,18 +109,18 @@ span.author.vcard { display: none;}
 /* Entry -------------------------------------------------- */
 
 /* コンテンツ全体的な */
-.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #FFFFFF;}
+.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #FFF7F5;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  margin: 0 40px 0 40px;  background: #FFFFFF;}
+.entry-header {  position: relative;  margin: 0 40px 0 40px;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  margin: 0 0 0 0;  display: inline-block;  font-size: 32px;  font-weight: normal;  background: #FFFFFF;}
+.entry-title {  margin: 0 0 0 0;  display: inline-block;  font-size: 32px;  font-weight: normal;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
-.categories {  font-size: 24px;  background: #FFFFFF;}
+.categories {  font-size: 24px;}
 .categories a {  color: #999999;  border-bottom: 1px solid;}
 .categories a:hover {  color: #333333;  transition: 0.8s;}
 .categories a:before {  font-family: "fontawesome";  content: "\f02d";}
