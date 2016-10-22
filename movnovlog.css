@@ -88,9 +88,9 @@ span.author.vcard { display: none;}
 /* グローバルヘッダ！ */
 #globalheader-container {  width: 640px;  background: #EEEEEE;}
 /* コンテンツのコンテナ！ */
-#container {  width: 640px;  background: #FFFFFF;}
+#container {  width: 640px;  background: #FFF7F5;}
 /* メインカラム！ */
-#main {  width: 610px;  margin-left: 30px;  background: #FFFFFF;}
+#main {  width: 610px;  margin-left: 30px;}
 /*#main {  width: 610px;  text-align: right;}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
