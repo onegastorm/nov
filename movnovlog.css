@@ -350,7 +350,7 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* page-about ---------------------------------------- */
 
 /* 記事数値とか */
-.page-about {  font-size: 32px;  padding-top: 40px;}
+.page-about {  font-size: 32px;  padding-top: 80px;}
 .page-about dd {  margin: 0 0 160px 0;}
 /* ブログ投稿件数とか */
 .page-about dt {  font-size: 24px;  color: #BBBBBB;}
