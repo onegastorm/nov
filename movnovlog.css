@@ -86,11 +86,11 @@ span.author.vcard { display: none;}
 /* Globalheader & Container - 全体的に -------------------------------------------------- */
 
 /* グローバルヘッダ！ */
-#globalheader-container {  width: 640px;  background: #FFDDFF;}
+#globalheader-container {  width: 640px;  background: #EEEEEE;}
 /* コンテンツのコンテナ！ */
-#container {  width: 640px;  background: #FFFFDD;}
+#container {  width: 640px;  background: #FFFFFF;}
 /* メインカラム！ */
-#main {  width: 610px;  margin-left: 30px;  background: #DDFFFF;}
+#main {  width: 610px;  margin-left: 30px;  background: #FFFFFF;}
 /*#main {  width: 610px;  text-align: right;}*/
 /* コンテナ内側の余白。必要ないがあえてのこす。 */
 /*#container-inner {  padding: 0 0 0 0;}*/
@@ -109,18 +109,18 @@ span.author.vcard { display: none;}
 /* Entry -------------------------------------------------- */
 
 /* コンテンツ全体的な */
-.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #DDFFDD;}
+.entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #FFFFFF;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  margin: 0 40px 0 40px;  background: #00FF00;}
+.entry-header {  position: relative;  margin: 0 40px 0 40px;  background: #FFFFFF;}
 /* 記事タイトル部タイトル系 */
-.entry-title {  margin: 0 0 0 0;  display: inline-block;  font-size: 32px;  font-weight: normal;  background: #FFFF00;}
+.entry-title {  margin: 0 0 0 0;  display: inline-block;  font-size: 32px;  font-weight: normal;  background: #FFFFFF;}
 /* 記事タイトル部日付ブタン系 */
 .date {  display: none;}
 /*.date {  position: absolute;  z-index: 100;  background: #AAAAFF;}*/
 /*.date a {  color: #1a1a1a;  text-decoration: none;  display: inline-block;}*/
 /*.date .hyphen {  padding: 2px;  color: #999999;}*/
 /* 記事タイトル部カテゴリブタン系 */
-.categories {  font-size: 24px;  background: #00FFFF;}
+.categories {  font-size: 24px;  background: #FFFFFF;}
 .categories a {  color: #999999;  border-bottom: 1px solid;}
 .categories a:hover {  color: #333333;  transition: 0.8s;}
 .categories a:before {  font-family: "fontawesome";  content: "\f02d";}
@@ -182,7 +182,7 @@ span.author.vcard { display: none;}
 /* entry-footer ---------------------------------------- */
 
 /* 記事のフッターの領域規定 */
-.entry-footer {  margin:0 40px 0 40px;  padding-left: 0;  background: #FFDDDD;  font-size: 24px;}
+.entry-footer {  margin:0 40px 0 40px;  padding-left: 0;  background: #FFFFFF;  font-size: 24px;}
 /*.entry-footer {  background: #FFEEEE;  margin:0 180px 0 180px;  padding-bottom: 60px;}*/
 /* 文責と投稿時間だけ？ */
 .entry-footer-section {  display: none;}
@@ -320,7 +320,7 @@ span.author.vcard { display: none;}
 /* Pager ---------------------------------------- */
 
 /* pagerだよー！ */
-.pager {  margin: 0 40px 160px 40px;/*  display: block;  *zoom: 1;*/  background: #FFDDFF}
+.pager {  margin: 0 40px 160px 40px;/*  display: block;  *zoom: 1;*/  background: #FFFFFF}
 /* 戻るページ送り */
 .pager .pager-prev {  float: left;  text-align: left;}
 .pager .pager-prev a {  font-size: 32px;  color: #999999;  border-bottom: solid 1px #999999;  line-height: 51px;}
@@ -363,20 +363,20 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 /* archive ---------------------------------------- */
 
 /* アーカイブコーナー全体。むかつくことに広告の上にマージンできるんですわ */
-.page-archive #main {  width: 610px;  font-size: 32px;  padding-bottom: 160px;  background: #DDFFEE;}
+.page-archive #main {  width: 610px;  font-size: 32px;  padding-bottom: 160px;  background: #FFFFFF;}
 /* 月別一覧のタイトル文字 */
 /*.page-archive #main h2 {  color: #999999;  font-weight: normal;  font-size: 15px;  padding-top:50px;}*/
 
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。absoluteにするとカテゴリに重なるよ。 */
-.page-archive .entry-title {  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;  background: #FFFF00;}
+.page-archive .entry-title {  color: #FFEEFF;/*  position: absolute;*/  display: inline-block;  background: #FFFFFF;}
 /* カテゴリ一覧ページの記事タイトルのセル領域。広告の上が基準点。 */
 .page-archive .archive-entries .entry-title {  font-size: 32px;}
-.page-archive .archive-entries .entry-title  a {  color: #777777;  border-bottom: 1px solid;  background: #00FFFF;}
+.page-archive .archive-entries .entry-title  a {  color: #777777;  border-bottom: 1px solid;  background: #FFFFFF;}
 .page-archive .archive-entries .entry-title  a:hover {  color: #333333;  transition: 0.8s;}
 /* カテゴリ一覧のコンテンツを包括して扱う。広告の下が基準点。.archive-entryの方が値が大きい場合無視される。 */
 .page-archive .archive-entries {  color: #999999;  margin: 0 40px 0 40px;}
 /* カテゴリ一覧の3要素をセットで扱う（topを広げると段間も広がる）が、広告の下が基準点。 */
-.page-archive .archive-entries .archive-entry {  font-size: 24px;  margin-top:40px;  background: #DDDDDD;}
+.page-archive .archive-entries .archive-entry {  font-size: 24px;  margin-top:40px;  background: #FFFFFF;}
 /* 何？ */
 /*.page-archive .archive-entries .entry-description {  margin: 0 0 1em;  line-height: 1.7em;  font-size: 13px;}*/
 /* サムネイル？　保留です。 */
@@ -388,9 +388,9 @@ footer address {/*  display: none;*/  position: absolute;  visibility: hidden;}
 .page-archive .archive-entries .categories a {  color: #777777;  border-bottom: 1px solid;}
 .page-archive .archive-entries .categories a:hover {  color: #333333;  transition: 0.8s;}
 /* 左右のpadding,marginは効くらしい。*/
-.page-archive .categories {  display: block;  text-align: right;  background: #FFDDFF;}
+.page-archive .categories {  display: block;  text-align: right;  background: #FFFFFF;}
 /* paddingは効く。といって周りに影響を及ぼしていない*/
-.page-archive .categories a {  background: #FF0000;}
+.page-archive .categories a {  background: #FFFFFF;}
 
 /* breadcrumb ---------------------------------------- */
 
