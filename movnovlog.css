@@ -336,7 +336,7 @@ span.author.vcard { display: none;}
 
 #box3 {  position: relative;  display: block;  width: 640px;  height: 40px;  background: #333333;}
 #copyright {  position: absolute;  bottom: 0;  font-size: 18px;  color: #777777;  padding-left: 30px;}
-#copyright a {  text-decoration: none;  color: #777777;  bottom: 0;}
+#copyright a {  text-decoration: none;  color: #777777;  bottom: 0;  border-bottom: 1px solid;}
 #copyright a:hover {  color: #BBBBBB;  transition: 0.8s;}
 
 #footer {/*  position: absolute;  display: block;*/  width: 640px;  background: #333333;}
