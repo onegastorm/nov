@@ -111,7 +111,7 @@ span.author.vcard { display: none;}
 /* コンテンツ全体的な */
 .entry {  position: relative;  padding: 0 0 40px 0;  margin: 0 0 0 0;  background: #FFF7F5;}
 /* 記事タイトル部 */
-.entry-header {  position: relative;  margin: 0 40px 0 40px;}
+.entry-header {  position: relative;  margin: 0 40px 0 40px;  background: #FFFFFF;}
 /* 記事タイトル部タイトル系 */
 .entry-title {  margin: 0 0 0 0;  display: inline-block;  font-size: 32px;  font-weight: normal;}
 /* 記事タイトル部日付ブタン系 */
